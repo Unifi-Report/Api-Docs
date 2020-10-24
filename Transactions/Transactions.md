@@ -5,9 +5,12 @@ You can get the transactions by using the following API call:
 
 ####This will return the last 5 transactions.
 
-####You can also specify the following parameters:
+You can also specify the following parameters:
+
 contract=(smart contract)
+
 page_size=(up to 20)
+
 page=(page)
 
 ####So for example an API call may look like:
