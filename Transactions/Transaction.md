@@ -1,17 +1,9 @@
-#Transactions
-You can get the transactions by using the following API call:
+# List Transactions
+HTTP GET
+<hr>
 
-/api/latest-token-transactions/
+Endpoint<br>
+```https://data.unifi.report/api/transactions/```
 
-####This will return the last 5 transactions.
-
-You can also specify the following parameters:
-
-contract=(smart contract)
-
-page_size=(up to 20)
-
-page=(page)
-
-####So for example an API call may look like:
-/api/latest-token-transactions/?token=TBwoSTyywvLrgjSgaatxrBhxt3DGpVuENh&page_size=10&page=1
+Get a specific transaction by using the hash parameter like:<br>
+```https://data.unifi.report/api/transactions/?hash=d151d8ad5d8fcae2b17141bfb6d280d4ab54b8553e97caccee8fc98355297156``` 
