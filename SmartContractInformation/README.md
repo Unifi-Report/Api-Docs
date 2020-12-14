@@ -1,14 +1,8 @@
-#Smart Contract information
-You can get smart contract information by using the following API call:
+# List Smart Contracts (Data of today)
 
-/api/smart-contract-balances/
+Endpoint:
+```https://data.unifi.report/api/smart-contract-balances/```
 
-This will return the latest smart contract information for all current smart contracts in the database.
+Get a specific smart contract by using the ```contract``` parameter.
 
-You can also specify the following parameter:
-
-contract=(smart contract)
-
-So an API call may look like:
-
-/api/latest-token-transactions/?token=TSAqYo6BeyMQhzHbj2xHu2enXxQnetx6yz
+For example: ```https://data.unifi.report/api/smart-contract-balances/?contract=TUxqQp2qXUx7hT2F6Zx4hy85n8o9L9bzM9```
