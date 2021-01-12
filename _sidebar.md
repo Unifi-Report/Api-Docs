@@ -4,7 +4,6 @@
     * [AccountPageGraphs](Graphs/AccountPageGraphs.md)
     * [ContractDetailPageGraph](Graphs/ContractDetailPageGraph.md)
     * [HomePageVolumeLiquidity](Graphs/HomePageVolumeLiquidity.md)
-    * [UnfiGraph](Graphs/UnfiGraph.md)
     * [UpGraph](Graphs/UpGraph.md)
 
 * SmartContractInformation
