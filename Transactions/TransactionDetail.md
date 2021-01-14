@@ -1,5 +1,7 @@
 # Detail transaction
 
+<hr>
+
 Endpoint `GET /api/transaction-detail/`
 
 | Parameter     | Description        | Required |
