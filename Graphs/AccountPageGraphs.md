@@ -8,7 +8,7 @@ Endpoint `GET /api/account-page-graph/`
 | -----------   | -----------        | 
 | blockchain    | Blockchain name    |
 
-Example API call: ```/api/account-page-graph/?blockchain=Tron```<br>
+Example API call: ```curl -X GET -H 'Accept: application/json; indent=4' https://data.unifi.report/api/account-page-graph/?blockchain=Tron```<br>
 Response:
 
 ```

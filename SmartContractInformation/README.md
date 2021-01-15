@@ -23,7 +23,7 @@ Endpoint `GET /api/smart-contract-balances/`
 | blockchain_desc | Sorts by descending blockchain | 
 
 
-Example API call: ```/api/smart-contract-balances/?contract=TUxqQp2qXUx7hT2F6Zx4hy85n8o9L9bzM9```<br>
+Example API call: ```curl -X GET -H 'Accept: application/json; indent=4' https://data.unifi.report/api/smart-contract-balances/?contract=TUxqQp2qXUx7hT2F6Zx4hy85n8o9L9bzM9```<br>
 Response:
 ```
 

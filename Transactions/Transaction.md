@@ -13,7 +13,7 @@ Endpoint `GET /api/transactions/`
 | blockchain    | Blockchain name    |
 | hash          | Transaction Hash   |
 
-Example API call: ```/api/transactions/?blockchain=Tron&page=1&page_size=1``` <br>
+Example API call: ```curl -X GET -H 'Accept: application/json; indent=4' https://data.unifi.report/api/transactions/?blockchain=Tron``` <br>
 Response:
 
 ```

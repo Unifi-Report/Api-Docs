@@ -8,7 +8,7 @@ Endpoint ```GET /api/liquidity-graph-info/``` <br>
 | -----------   | -----------        | 
 | contract    | Contract Address     |
 
-Example API call: ```/api/liquidity-graph-info/?contract=TU2FCnCEaZChdVsifYQmL9WpNoCwDqXACJ```<br>
+Example API call: ```curl -X GET -H 'Accept: application/json; indent=4' https://data.unifi.report/api/liquidity-graph-info/?contract=TU2FCnCEaZChdVsifYQmL9WpNoCwDqXACJ```<br>
 Response:
 ```
 [

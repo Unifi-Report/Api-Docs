@@ -8,7 +8,7 @@ Endpoint `GET /api/total-volume-liquidity/`
 | -----------   | -----------        | 
 | blockchain    | Blockchain name    |
 
-Example API call: ```/api/total-volume-liquidity/?blockchain=Tron```<br>
+Example API call: ```curl -X GET -H 'Accept: application/json; indent=4' https://data.unifi.report/api/total-volume-liquidity/?blockchain=Tron```<br>
 Response:
 ```
 [

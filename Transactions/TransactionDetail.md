@@ -8,7 +8,7 @@ Endpoint `GET /api/transaction-detail/`
 | -----------   | -----------        | :---: |
 | hash          | Transaction hash   |  :heavy_check_mark: |
 
-Example API call: ```/api/transaction-detail/?hash=2f05f71b48cd50a94ace4f710962fd5b7a5f45e8d2d9585427413ce4b00b0cee``` <br>
+Example API call: ```curl -X GET -H 'Accept: application/json; indent=4' https://data.unifi.report/api/transaction-detail/?hash=2f05f71b48cd50a94ace4f710962fd5b7a5f45e8d2d9585427413ce4b00b0cee``` <br>
 Response: 
 ```
 [
