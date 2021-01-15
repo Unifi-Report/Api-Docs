@@ -2,7 +2,7 @@
 
 <hr>
 
-Endpoint: ```GET /api/liquidity-graph-info/``` <br>
+Endpoint ```GET /api/liquidity-graph-info/``` <br>
 
 | Parameter     | Description        |
 | -----------   | -----------        | 

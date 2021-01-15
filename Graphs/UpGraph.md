@@ -2,7 +2,7 @@
 
 <hr>
 
-Endpoint: ```GET /api/up-graph/``` <br>
+Endpoint ```GET /api/up-graph/``` <br>
 
 | Parameter     | Description        |
 | -----------   | -----------        | 
